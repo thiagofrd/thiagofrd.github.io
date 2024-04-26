@@ -40,7 +40,7 @@ img {
         rgba(0,0,0,0),
         rgba(0,0,0,4)
     ),
-    url(images/bg.jpg);
+    url(bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,7 +201,7 @@ h3 {
     rgba(0,0,0,0),
     rgba(0,0,0,4)
     ),
-    url(images/Especialidades1.jpg);
+    url(Especialidades1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,7 +274,7 @@ h3 {
     rgba(0,0,0,0),
     rgba(0,0,0,4)
     ),
-    url(images/bg-2.jpg);
+    url(bg-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
