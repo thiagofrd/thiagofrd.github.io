@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Satisfy&display=swap');
+
+/* hay que mejorara la parte de la letra, cambiar la letra, o la manera que se pone*/
+
+/* Ademas falata hacer la seccion de eventos con una tarjeta deja la descripcion de tue evento, y la seccion de contacto con otra tarjeta de contacto (hay que aprender a como hacer el boton para enviarlo y que llegue la info, y adonde llega*/
+
+/* Tambien hay que terminar el pdf del menu con publuu */
+
+/* hay que cambiar todas las fotos a las fotos del negocio en alta resolucion y lindas con un contraste de color igual en toda la pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F4F0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img1 {
+    height: 80%;
+    width: 80%;
+ }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,4)
+    ),
+    url(images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-infanta {
+    height: 300px 0;
+    width: 230px;
+}
+
+/* box para que quede lindo con o sin el logo a la izquierda, o solo */
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.menu .navbar ul li a:hover{
+    color: #C9A538;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+    color: #f0efef;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+    column-rule: #ffffff;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.header-txt p {
+    font-size: 35px;
+    color: #f1f0f0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header .titulo-2 {
+    padding: 12px;
+
+}
+
+.information-content {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: -50px;
+}
+
+.information-1 {
+    flex-basis: 30%;
+}
+
+.information-c1 {
+    padding: 45px;
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 300px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 15px;
+    color: #2c2c2c;
+}
+
+.information-2 {
+    flex-basis: 70%;
+}
+
+.information-b1 {
+    height: 300px;
+}
+
+.information-a1 {
+    height: 300px;
+}
+
+.information-b1 img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.information-a1 img {
+    height: 300px;
+    width: 100%;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid #C9A538;
+    margin-top: 10px;
+    color: #C9A538;
+    text-transform: uppercase;
+    transition-property: background-color,color;
+    transition-duration: 1s;
+}
+
+.btn-1:hover {
+    color: #292828;
+    background-color: #C9A538;
+}
+
+.our {
+    margin-top: -50px;
+    padding: 250px;
+    background: linear-gradient(
+    rgba(0,0,0,0),
+    rgba(0,0,0,4)
+    ),
+    url(images/Especialidades1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.our h2 {
+    font-size: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.ofert-content {
+    display: flex;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: -50px;
+    font-family: 'Poppins', sans-serif ;
+}
+
+.ofert-1 {
+    flex-basis: 25%;
+    height: 511.02px;
+    width: 485px;
+}
+
+.ofert-txt {
+    padding: 33px;
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 230px;
+}
+
+.ofert-txt .p-2 {
+    font-size: 13px;
+ }
+
+.ofert-txt h3{
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.ofert-img {
+    height: 230px;
+}
+
+.ofert-img img {
+    height: 230px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.btn-2 {
+    display: inline-block;
+    margin-top: 10px;
+    color: #C9A538;
+    text-transform: uppercase;
+    transition-property: color, margin;
+    transition-duration: 200ms;
+}
+
+.btn-2:hover {
+    color: #292828;
+    margin-top: 5px;
+}
+
+.bg {
+    background: linear-gradient(
+    rgba(0,0,0,0),
+    rgba(0,0,0,4)
+    ),
+    url(images/bg-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    margin-top: -50px;
+}
+
+.food {
+    padding: 100px;
+    text-align: center;
+}
+
+.food h2 {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 15px;
+    color: #2c2c2c;
+}
+
+.food span {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 45px;
+    color: #2c2c2c;
+}
+
+.food-content {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.food-1 {
+    margin-right: 50px;
+}
+
+.food-1 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #2c2c2c;
+    text-align: left;
+}
+
+.food-txt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.food-txt p {
+    font-size: 17px;
+    color: #5C5C5C;
+}
+
+.precio {
+    font-size: 25px !important;
+    color: #C9A538 !important;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #2c2c2c;
+}
+
+/* hay que modificar el justify content, con dos apartados de padding, para que en el telefono no se vaya el apartado de lisas para abajo*/
+.footer-content {
+    display: flex;
+    place-content: space-around;
+    padding-left: inherit;
+}
+
+.footer-content .container {
+    padding: 0;
+}
+
+.link2 ul li { 
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+.link ul li {
+    margin-right: 25px;
+}
+
+.link a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #727272;
+    text-decoration: underline;
+}
+
+.link .logo-infanta 
+
+.link a:hover {
+    color: #e7e7e7;
+}
+
+.derechos {
+    color: #979191;
+}
+
+@media (max-width:991px) {
+
+    .img1 {
+        height: 60%;
+        width: 60%;
+     }
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #FFBD4C;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #2c2c2c;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .information-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .our {
+        margin-top: 0;
+        padding: 150px 30px;
+    }
+
+    .information-2 {
+        padding-bottom: 90px;
+        background-color: #FFFFFF;
+    }
+
+    .ofert-content {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ofert-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        object-fit: cover;
+    }
+
+    .ofert-img {
+        order: 2;
+        margin-bottom: 25px;
+    }
+
+    .bg {
+        margin-top: 0;
+    }
+
+    .food {
+        padding: 30px;
+    }
+
+    .food-content {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .food-1 {
+        margin: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link ul {
+        flex-direction: column;
+    }
+    .link ul li {
+        margin: 15px 0 15px 0;
+    }
+   
+}
